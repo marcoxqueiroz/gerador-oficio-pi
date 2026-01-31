@@ -1,5 +1,7 @@
-/build/
-/dist/
-/nbproject/private/
-/*.class
+# NetBeans build artifacts (inside project folder)
+GeradorOficioPI/build/
+GeradorOficioPI/dist/
+GeradorOficioPI/nbproject/private/
+
+# Java
 *.class
