@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Gerar nº de Ofício</title>
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
+        <div class="topbar">
+            <div class="topbar-inner">
+                <a class="back" href="home.html" aria-label="Voltar">
+                    <img class="icon-back" src="../assets/icons/back.png" alt="Voltar">
+                </a>
+                <h1 class="title">SISTEMA GERENCIADOR DE NÚMERO DE OFÍCIOS</h1>
+            </div>
+        </div>
+
+        <main class="page center">
+            <div class="subtitle">Gerar nº de Ofício</div>
+
+            <div class="form-area">
+                <input id="yearInput" class="input" type="number" min="1900" max="3000" placeholder="Digite o ano" />
+                <button id="btnConfirm" class="btn">CONFIRMAR</button>
+                <div id="alertBox" class="alert"></div>
+            </div>
+        </main>
+
+        <!-- POPUP -->
+        <div id="modal" class="modal" role="dialog" aria-modal="true">
+            <div class="modal-card">
+                <div class="ok">Registro efetuado!</div>
+                <p id="modalOficio" class="oficio">Ofício Nº 0000/0000</p>
+                <div style="margin-top:18px;">
+                    <button id="modalClose" class="btn">OK</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">Desenvolvido por Marcos Queiroz</div>
+        <script src="../js/app.js"></script>
+    </body>
+</html>
