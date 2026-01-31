@@ -1,2 +1,5 @@
-# gerador-oficio-pi
-Projeto Integrador Acadêmico – Sistema Java para geração de número de ofício no padrão 0000/AAAA, estruturado com separação de responsabilidades e aplicação de princípios SOLID, preparado para futura migração para aplicação web.
+# Gerador de Número de Ofício – Projeto Acadêmico
+
+Projeto desenvolvido por Marcos Henrique Rodrigues Queiroz para o Projeto Integrador do curso técnico do Senac.
+
+O sistema gera números de ofício no padrão 0000/AAAA, com separação de responsabilidades e aplicação dos princípios SOLID, visando reutilização das regras de negócio em futura aplicação web.
